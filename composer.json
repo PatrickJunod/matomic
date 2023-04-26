@@ -1,0 +1,22 @@
+{
+    "name": "patrickjunod/matomic",
+    "autoload": {
+        "psr-4": {
+            "Patrickjunod\\Matomic\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Matomic",
+            "description": "Matomic addon"
+        },
+        "laravel": {
+            "providers": [
+                "Patrickjunod\\Matomic\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "matomo/matomo-php-tracker": "^3.1"
+    }
+}
